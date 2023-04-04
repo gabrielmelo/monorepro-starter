@@ -1,0 +1,28 @@
+{
+  "name": "mds-tokens",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "tsup": {
+    "entry": [
+      "./index.ts"
+    ],
+    "format": [
+      "esm",
+      "cjs"
+    ],
+    "sourcemap": false
+  },
+  "scripts": {
+    "dev": "tsup --dts --watch",
+    "build": "tsup --dts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "pathe": "^1.1.0",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.3"
+  }
+}

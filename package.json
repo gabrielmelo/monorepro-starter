@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "version": "3.0.0",
+  "license": "ISC",
+  "scripts": {
+    "dev": "npx nx run-many --target=dev --all"
+  },
+  "devDependencies": {
+    "nx": "^15.9.2"
+  }
+}
